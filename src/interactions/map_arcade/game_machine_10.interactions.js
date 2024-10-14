@@ -194,11 +194,20 @@ function startCatchTheMoon(k) {
         k.onKeyPress('escape', () => {
             k.go('lose', {
                 title: 'Catch the moon',
+<<<<<<< HEAD
+=======
+                gameRestartSceneName: 'catchTheMoon',
+                gameExitSceneName: 'arcade',
+>>>>>>> 5037bde28a9458f402db8a8c47d5f2e25081a860
                 score,
             });
             clearTimeout(timer);
             import('../../scenes/arcade').then((_) => {
                 k.go('arcade');
+<<<<<<< HEAD
+=======
+            });
+>>>>>>> 5037bde28a9458f402db8a8c47d5f2e25081a860
         });
 
         const scoreLabel = k.add([k.text(`Score: ${score}`), k.pos(20, 20)]);
@@ -207,4 +216,8 @@ function startCatchTheMoon(k) {
             scoreLabel.text = `Score: ${score}`;
         });
     });
+<<<<<<< HEAD
     })}
+=======
+}
+>>>>>>> 5037bde28a9458f402db8a8c47d5f2e25081a860
