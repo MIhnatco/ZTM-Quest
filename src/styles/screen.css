@@ -140,7 +140,10 @@
     :root {
         --footer-height: auto;
     }
+<<<<<<< HEAD
     .top,
+=======
+>>>>>>> 5037bde28a9458f402db8a8c47d5f2e25081a860
     .left,
     .right,
     #footer .control-btns {
