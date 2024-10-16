@@ -5,7 +5,7 @@ const careerPathDialogue = [
     <div>
         <h2>Zero To Mastery Career Paths</h2>
         <p>
-            Whether you’re a complete beginner or an experienced professional, figuring out the
+            Whether you're a complete beginner or an experienced professional, figuring out the
             next step in your career can be overwhelming.
         </p>
         <p>
